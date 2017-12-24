@@ -1,0 +1,7 @@
+---
+layout: default
+img: 53.jpg
+name: Akhil Reddy
+year: 2k15
+
+---

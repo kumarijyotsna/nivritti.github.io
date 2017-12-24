@@ -1,0 +1,7 @@
+---
+layout: default
+img: a.jpg
+name: Aayush Bhaskar
+year: 2k16
+
+---

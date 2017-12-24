@@ -1,0 +1,7 @@
+---
+layout: default
+img: 1.jpg
+name: Shivam Kumar
+year: 2k16
+
+---
