@@ -1,7 +1,0 @@
----
-layout: default
-img: 32.jpg
-name: Ravikanth
-year: 2k15
-
----
