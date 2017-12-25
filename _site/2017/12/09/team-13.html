@@ -137,7 +137,12 @@ practical experience.
         </div>
     </section>
 
-    <!-- About Section -->
+    <style>
+.fa-github{
+   color:#6c6c74;
+}
+</style>
+<!-- About Section -->
     <section id="about">
         <div class="container">
             <div class="row">
@@ -330,10 +335,41 @@ x, sin(pix),sin(2pix), cos(pix) and cos(2pix).</p>
             </div>    
 </section>
 
-    <style>
-.caption{
-  text-align:center;
-}
+    <style type="text/css">
+    .flip-container {
+        margin-left: 50px;
+        margin-bottom:50px;
+        perspective: 1000;
+        display: inline-block;
+    }
+    .flip-container:hover .card {
+        transform: rotateY(180deg);
+    }
+    .card, .front, .back {
+        width: 300px;
+        height: 300px;
+    }
+    .card {
+        transition: 0.5s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    .front, .back {
+        backface-visibility: hidden;
+        position: absolute;
+    }
+    .front {
+        z-index: 2;
+        transform: rotateY(0deg);
+     
+    }
+    .back {
+        z-index: 1; /* back side, placed above front */
+        transform: rotateY(180deg);
+        background:lightgrey;
+        text-align:center;
+       
+    }
 </style>
 <!-- Team Section -->
     <section id="team" class="bg-light-gray">
@@ -344,172 +380,265 @@ x, sin(pix),sin(2pix), cos(pix) and cos(2pix).</p>
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row ">
                 
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/26.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Anil Gupta</h4>
-                 <p>2k14</p>
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/26.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Anil Gupta  <br/>
+                 2k14</h5></center>
                  </div>
-                    
+                 </div>
+                <div class="back">
+               
+                 <div></div>
+                 </div>
+                  
                  </div>
              </div>
 
                 
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/51.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Shailaditya Biswas</h4>
-                 <p>2k14</p>
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/51.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Shailaditya Biswas  <br/>
+                 2k14</h5></center>
                  </div>
-                    
                  </div>
-             </div>
-
-                
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/2.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Srivatsa Sinha</h4>
-                 <p>2k14</p>
+                <div class="back">
+               
+                 <div>I am a UG Final year student at Birla Institute of Technology, Mesra. My areas of interests include soft computing, robotic system design and software-hardware Interfacing.</div>
                  </div>
-                    
+                  
                  </div>
              </div>
 
                 
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/32.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Ravikanth</h4>
-                 <p>2k15</p>
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/2.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Srivatsa Sinha  <br/>
+                 2k14</h5></center>
                  </div>
-                    
                  </div>
-             </div>
-
-                
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/16.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Saurabh</h4>
-                 <p>2k15</p>
+                <div class="back">
+               
+                 <div></div>
                  </div>
-                    
+                  
                  </div>
              </div>
 
                 
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/13.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Pujitha Patnaik</h4>
-                 <p>2k15</p>
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/16.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Saurabh  <br/>
+                 2k15</h5></center>
                  </div>
-                    
                  </div>
-             </div>
-
-                
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/53.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Akhil Reddy</h4>
-                 <p>2k15</p>
+                <div class="back">
+               
+                 <div></div>
                  </div>
-                    
+                  
                  </div>
              </div>
 
                 
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/pp.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Animesh</h4>
-                 <p>2k15</p>
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/13.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Pujitha Patnaik  <br/>
+                 2k15</h5></center>
                  </div>
-                    
                  </div>
-             </div>
-
-                
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/1.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Shivam Kumar</h4>
-                 <p>2k16</p>
+                <div class="back">
+               
+                 <div></div>
                  </div>
-                    
+                  
                  </div>
              </div>
 
                 
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/3.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Mudit Choraria</h4>
-                 <p>2k16</p>
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/53.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Akhil Reddy  <br/>
+                 2k15</h5></center>
                  </div>
-                    
                  </div>
-             </div>
-
-                
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/a.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Aayush Bhaskar</h4>
-                 <p>2k16</p>
+                <div class="back">
+               
+                 <div></div>
                  </div>
-                    
+                  
                  </div>
              </div>
 
                 
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/p.jpg" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>Pooja Asati</h4>
-                 <p>2k16</p>
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/pp.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Animesh  <br/>
+                 2k15</h5></center>
                  </div>
-                    
+                 </div>
+                <div class="back">
+               
+                 <div></div>
+                 </div>
+                  
+                 </div>
+             </div>
+
+                
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/1.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Shivam Kumar  <br/>
+                 2k16</h5></center>
+                 </div>
+                 </div>
+                <div class="back">
+               
+                 <div></div>
+                 </div>
+                  
+                 </div>
+             </div>
+
+                
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/3.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Mudit Choraria  <br/>
+                 2k16</h5></center>
+                 </div>
+                 </div>
+                <div class="back">
+               
+                 <div></div>
+                 </div>
+                  
+                 </div>
+             </div>
+
+                
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/a.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Aayush Bhaskar  <br/>
+                 2k16</h5></center>
+                 </div>
+                 </div>
+                <div class="back">
+               
+                 <div></div>
+                 </div>
+                  
+                 </div>
+             </div>
+
+                
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/p.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Pooja Asati  <br/>
+                 2k16</h5></center>
+                 </div>
+                 </div>
+                <div class="back">
+               
+                 <div></div>
+                 </div>
+                  
+                 </div>
+             </div>
+
+                
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/j.jpg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Kumari Jyotsna  <br/>
+                 2k17</h5></center>
+                 </div>
+                 </div>
+                <div class="back">
+               
+                 <div></div>
+                 </div>
+                  
+                 </div>
+             </div>
+
+                
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/r.jpeg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Rashmi Sahu  <br/>
+                 2k17</h5></center>
+                 </div>
+                 </div>
+                <div class="back">
+               
+                 <div></div>
+                 </div>
+                  
+                 </div>
+             </div>
+
+                
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/ab.jpeg" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>Abhinav Gupta  <br/>
+                 2k17</h5></center>
+                 </div>
+                 </div>
+                <div class="back">
+               
+                 <div></div>
+                 </div>
+                  
                  </div>
              </div>
 
                 
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted"></p>
-                </div>
-            </div>
+        
         </div>
     </section>
+
 
     
     <head>
@@ -526,17 +655,15 @@ x, sin(pix),sin(2pix), cos(pix) and cos(2pix).</p>
 
 			<div class="row">
 				<div >
-					<h2>Keep in Touch:</h2>
+					<h2>Keep in Touch:
+                            <h3> <strong>Srivatsa Sinha</strong></h3>
+        
+         <p><i class="fa fa-envelope fa-x"></i>srivatsasinha@gmail.com</p></h2>
 				</div>
 
             
 
-       <div class=" col-xs-12 col-md-4 animated wow bounceInRight ">
-       <h2><strong>Srivatsa Sinha</strong></h2>
-        
-         <p><i class="fa fa-envelope fa-x"></i>srivatsasinha@gmail.com</p>
-       </div>
-
+ 
 
 
 			</div>

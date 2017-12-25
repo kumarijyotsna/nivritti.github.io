@@ -1,0 +1,10 @@
+---
+layout: default
+img: ab.jpeg
+name: Abhinav Gupta
+year: 2k17
+intro:
+
+---
+
+

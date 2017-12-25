@@ -1,7 +1,38 @@
-<style>
-.caption{
-  text-align:center;
-}
+<style type="text/css">
+    .flip-container {
+        margin-left: 50px;
+        margin-bottom:50px;
+        perspective: 1000;
+        display: inline-block;
+    }
+    .flip-container:hover .card {
+        transform: rotateY(180deg);
+    }
+    .card, .front, .back {
+        width: 300px;
+        height: 300px;
+    }
+    .card {
+        transition: 0.5s;
+        transform-style: preserve-3d;
+        position: relative;
+    }
+    .front, .back {
+        backface-visibility: hidden;
+        position: absolute;
+    }
+    .front {
+        z-index: 2;
+        transform: rotateY(0deg);
+     
+    }
+    .back {
+        z-index: 1; /* back side, placed above front */
+        transform: rotateY(180deg);
+        background:lightgrey;
+        text-align:center;
+       
+    }
 </style>
 <!-- Team Section -->
     <section id="team" class="bg-light-gray">
@@ -12,26 +43,28 @@
                     <h3 class="section-subheading text-muted"></h3>
                 </div>
             </div>
-            <div class="row">
+            <div class="row ">
                 {% for post in site.posts %}
-              <div class="col-md-3">
-                <div class="thumbnail">
-                   
-                       <img src="img/team/{{ post.img }}" alt="Lights" style="width:350px;height:350px">
-                 <div class="caption">
-                 <h4>{{post.name}}</h4>
-                 <p>{{ post.year }}</p>
+              <div class="col-md-3 flip-container">
+                <div class="img-responsive img-thumbnail card">
+                   <div class="front">
+                       <img src="img/team/{{ post.img }}" alt="Lights" style="width:300px;height:300px">
+                       <div class="caption">
+                 <center><h5>{{post.name}}  <br/>
+                 {{ post.year }}</h5></center>
                  </div>
-                    
+                 </div>
+                <div class="back">
+               
+                 <div>{{ post.intro }}</div>
+                 </div>
+                  
                  </div>
              </div>
 
                 {% endfor %}
             </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted"></p>
-                </div>
-            </div>
+        
         </div>
     </section>
+

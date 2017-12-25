@@ -1,0 +1,10 @@
+---
+layout: default
+img: j.jpg
+name: Kumari Jyotsna
+year: 2k17
+intro:
+
+---
+
+
