@@ -3,5 +3,7 @@ layout: default
 img: 2.jpg
 name: Srivatsa Sinha
 year: 2k14
-intro: An enthusiast in Electronics and Computing. Currently pursuing BE in Electronics and Communication at BIT Mesra with a future goal of developing and delivering customer service Computing sector. My area of interest lies in Deep Learning, Stastical Modelling and Artificial General Intelligence.
+intro: An enthusiast in Electronics and Computing. Currently pursuing BE in Electronics and Communication at BIT Mesra with a future goal of developing and delivering customer service Computing sector. My area of interest lies in Deep Learning, Statistical Modelling and Artificial General Intelligence
+modal-id: 4
+designation: Team Lead A.I. at Nivritti
 ---

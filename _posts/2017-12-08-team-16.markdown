@@ -4,7 +4,8 @@ img: j.jpg
 name: Kumari Jyotsna
 year: 2k16
 intro: I am a UG second year Computer Science student at Birla Institute of Technology,Mesra . My area of interests include machine learning and web develpoment.
-
+modal-id: 16
+designation: Application Developer at Nivritti
 ---
 
 
