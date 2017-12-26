@@ -3,5 +3,5 @@ layout: default
 img: 53.jpg
 name: Akhil Reddy
 year: 2k15
-
+intro: I am a UG 3rd year student at Birla Institute of Technology, Mesra.
 ---

@@ -3,5 +3,5 @@ layout: default
 img: 1.jpg
 name: Shivam Kumar
 year: 2k16
-
+intro: I am currently studying Computer Science and Engineering at an Undergraduate level. My areas of interest include, Machine Learning and Computer Vision.
 ---

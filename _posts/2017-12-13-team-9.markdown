@@ -3,7 +3,7 @@ layout: default
 img: pp.jpg
 name: Animesh
 year: 2k15
-
+intro: I am a UG 3rd year student at Birla Institute of Technology, Mesra.A data science and deep learning enthusiast.My areas of interest are NLP , data science , BI , computer vision.
 ---
 
 

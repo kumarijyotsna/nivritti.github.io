@@ -46,17 +46,17 @@
             <div class="row ">
                 {% for post in site.posts %}
               <div class="col-md-3 flip-container">
-                <div class="img-responsive img-thumbnail card">
+                <div class="img-responsive card">
                    <div class="front">
-                       <img src="img/team/{{ post.img }}" alt="Lights" style="width:300px;height:300px">
+                       <img src="img/team/{{ post.img }}" alt="Lights" style="width:300px;height:300px" class="img-circle">
                        <div class="caption">
                  <center><h5>{{post.name}}  <br/>
                  {{ post.year }}</h5></center>
                  </div>
                  </div>
-                <div class="back">
-               
-                 <div>{{ post.intro }}</div>
+                <div class="back img-circle">
+                 <br/><br/></br>
+                 {{ post.intro }}
                  </div>
                   
                  </div>

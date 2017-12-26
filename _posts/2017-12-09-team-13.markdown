@@ -3,5 +3,5 @@ layout: default
 img: p.jpg
 name: Pooja Asati
 year: 2k16
-
+intro: I am a UG second year student at Birla Institute of Technology,Mesra . My fields of interest include robotics and embedded systems .
 ---
