@@ -2,7 +2,7 @@
     .flip-container {
         margin-left: 50px;
         margin-bottom:50px;
-        perspective: 1000;
+       
         display: inline-block;
     }
     .flip-container:hover .card {
@@ -11,6 +11,7 @@
     .card, .front, .back {
         width: 300px;
         height: 300px;
+        position:absolute;
     }
     .card {
         transition: 0.5s;
@@ -47,23 +48,24 @@
             </div>
             <div class="row">
             {% for post in site.posts %}
-                <div class="col-md-4 portfolio-item flip-container">
-                  <div class="card">
+                <div class="col-md-4 portfolio-item ">
+                <div class=" flip-container">  
+                <div class="card">
                    <div class="back img-circle">
                     <br /><br /><br /><br />
               <strong>{{ post.designation }}</strong><br />
                  {{ post.intro | truncatewords:15}}<br />
                     <a href="#portfolioModal{{ post.modal-id }}" class="portfolio-link txt btn btn-primary" data-toggle="modal">Read more</i></a>
                             </div>
-                        
+                       <div class="front"> 
                         <img src="img/team/{{ post.img }}" class="img-circle" alt="" style="width:300px;height:300px" >
                     </a>
                     <center><div class="caption">
                         <h4>{{ post.name }}</h4>
                         <p class="text-muted">{{ post.year }}</p>
                     </div></center>
-                </div>
-                </div>
+                </div></div>
+                </div></div>
             {% endfor %}
             </div>
         </div>

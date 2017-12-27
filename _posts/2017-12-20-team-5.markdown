@@ -1,7 +1,7 @@
 ---
 layout: default
 img: 51.jpg
-name: Shailaditya Biswas
+name: Shiladitya Biswas
 year: 2k14
 intro: I am a UG Final year student at Birla Institute of Technology, Mesra. My areas of interests include soft computing, robotic system design and software-hardware Interfacing.
 modal-id: 5
