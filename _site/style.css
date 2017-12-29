@@ -244,7 +244,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fec503;
 }
 
-@media(min-width:992px) {
+
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -273,7 +273,7 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
-}
+
 
 header {
     text-align: center;
@@ -310,7 +310,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-@media(min-width:992px) {
+
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -332,7 +332,7 @@ header .intro-text .intro-heading {
         font-weight: 700;
         line-height: 75px;
     }
-}
+
 
 section {
     padding: 100px 0;
@@ -353,11 +353,11 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:992px) {
+
     section {
         padding: 150px 0;
     }
-}
+
 
 .service-heading {
     margin: 15px 0;
@@ -422,11 +422,11 @@ section h3.section-subheading {
 }
 
 
-@media(min-width:992px) {
+
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
-}
+
 
 .timeline {
     position: relative;
@@ -532,6 +532,7 @@ section h3.section-subheading {
     color: inherit;
 }
 
+3
 .timeline .timeline-heading h4.subheading {
     text-transform: none;
 }
@@ -539,6 +540,7 @@ section h3.section-subheading {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+3222225
 }
 
 @media(min-width:992px) {
