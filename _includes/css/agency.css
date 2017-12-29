@@ -8,6 +8,8 @@ body {
     overflow-x: hidden;
     font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
+    margin:0;
+    padding:0
 }
 
 .text-muted {
@@ -234,7 +236,7 @@ fieldset[disabled] .btn-xl.active {
     background-color: #{{ site.data.template.color.secondary }};
 }
 
-@media(min-width:800px) {
+@media(min-width:992px) {
     .navbar-default {
         padding: 25px 0;
         border: 0;
@@ -300,7 +302,7 @@ header .intro-text .intro-heading {
     line-height: 50px;
 }
 
-@media(min-width:800px) {
+@media(min-width:992px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -343,7 +345,7 @@ section h3.section-subheading {
     font-weight: 400;
 }
 
-@media(min-width:800px) {
+@media(min-width:992px) {
     section {
         padding: 150px 0;
     }
@@ -412,7 +414,7 @@ section h3.section-subheading {
 }
 
 
-@media(min-width:800px) {
+@media(min-width:992px) {
     #portfolio .portfolio-item {
         margin: 0 0 30px;
     }
@@ -531,7 +533,7 @@ section h3.section-subheading {
     margin-bottom: 0;
 }
 
-@media(min-width:800px) {
+@media(min-width:992px) {
     .timeline:before {
         left: 50%;
     }
