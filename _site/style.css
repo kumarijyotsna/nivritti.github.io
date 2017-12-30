@@ -26,7 +26,7 @@ body {
 
 .text-primary {
     color: #fed136;
-}
+}ex
 
 p {
     font-size: 14px;
@@ -296,9 +296,9 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif", "Helvetica Neue", Helvetica,Arial,sans-serif;
-    font-size: 22px;
+    font-size: 15px;
     font-style: italic;
-    line-height: 22px;
+    line-height: 15px;
 }
 
 header .intro-text .intro-heading {
@@ -335,7 +335,7 @@ header .intro-text .intro-heading {
 
 
 section {
-    padding: 100px 0;
+    padding: 200px 0;
 }
 
 section h2.section-heading {
@@ -352,12 +352,6 @@ section h3.section-subheading {
     font-style: italic;
     font-weight: 400;
 }
-
-
-    section {
-        padding: 150px 0;
-    }
-
 
 .service-heading {
     margin: 15px 0;
@@ -631,7 +625,7 @@ aside.clients img {
     margin: 50px auto;
 }
 section{
-padding:90px 0px;
+padding:150px 0px;
 }
 section#about{
   margin-bottom:30px;             
