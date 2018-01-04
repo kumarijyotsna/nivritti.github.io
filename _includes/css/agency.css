@@ -295,7 +295,7 @@ header .intro-text .intro-heading {
 
 
 section {
-    padding: 200px 0;
+    padding: 100px 0;
 }
 
 section h2.section-heading {
@@ -441,11 +441,10 @@ section h3.section-subheading {
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 80px;
-    height: 80px;
+    
     margin-left: 0;
     border: 7px solid #f1f1f1;
-    border-radius: 100%;
+    border-radius: 50%;
     text-align: center;
     color: #fff;
     background-color: #{{ site.data.template.color.primary }};
@@ -516,9 +515,7 @@ section h3.section-subheading {
 
     .timeline>li .timeline-image {
         left: 50%;
-        width: 100px;
-        height: 100px;
-        margin-left: -50px;
+             margin-left: -50px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -544,9 +541,7 @@ section h3.section-subheading {
     }
 
     .timeline>li .timeline-image {
-        width: 150px;
-        height: 150px;
-        margin-left: -75px;
+                margin-left: -75px;
     }
 
     .timeline>li .timeline-image h4 {
@@ -585,10 +580,10 @@ aside.clients img {
     margin: 50px auto;
 }
 section{
-padding:150px 0px;
+padding:100px 0px;
 }
 section#about{
-  margin-bottom:30px;             
+  margin-bottom:15px;             
 }
 section#contact {
     background-color: #222;
