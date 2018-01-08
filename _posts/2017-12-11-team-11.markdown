@@ -3,6 +3,6 @@ layout: default
 img: 3.jpg
 name: Mudit Choraria
 year: 2k16
-intro: I am currently studying Computer Science and Engineering at an Undergraduate level at Birla Institute of Tecnology,Ranchi.I'm a passionate tech lover. My interests include blogging, machine learning and designing.
+intro: I'm a passionate tech lover. My interests include blogging, machine learning and designing.
 modal-id: 11
 ---
