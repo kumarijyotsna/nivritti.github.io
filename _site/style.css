@@ -21,7 +21,7 @@ body {
 }
 @media screen and (max-width: 400px) {
    body {
-      width:900px;
+      width:992px;
    }
 }
 
@@ -149,7 +149,7 @@ fieldset[disabled] .btn-primary.active {
 .navbar-default {
     border-color: transparent;
     background-color: #222;
-    max-width:fit-screen;
+    
 }
 
 .navbar-default .navbar-brand {
